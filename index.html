@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!---- Author Name ---->
+    <meta name="author" content="Your Name" />
+    <!---- Website Description ---->
+    <meta name="description" content="Website Description" />
+    <!---- Website keywords ---->
+    <meta name="keywords" content="Website keywords" />
+    <!------- Favicon ------->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/images/logo.svg"
+    />
+    <!---- Website Title ---->
+    <title>Website Title</title>
+    <!-------- Fonts -------->
+    <link rel="stylesheet" href="https://use.typekit.net/obb4qpa.css" />
+    <!------- Css Here ------->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+
+  <body>
+
+    <!-- 
+	  =====================================================
+	  Start Header Section 
+	  =====================================================
+	-->
+    <header class="header header-sticky bg-color8">
+      <div
+        class="container wrapper d-flex align-items-center justify-content-between"
+      >
+        <!-- Header Logo -->
+        <div class="logo-wrapper">
+          <a href="./index.html" class="header-logo-link">
+            <h1 class="text-light">NavBar</h1>
+          </a>
+        </div>
+        <!-- Open Menu Icon -->
+        <button type="button" class="opened-menu-btn canvas_open d-lg-none">
+          <span class="menu-btn-line"></span>
+          <span class="menu-btn-line"></span>
+          <span class="menu-btn-line"></span>
+        </button>
+        <!-- Main Menu -->
+        <nav class="navbar-area d-none d-lg-block">
+          <ul class="menu d-flex align-items-center">
+            <li class="menu-item">
+              <a href="#" class="menu-link">Companies</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">Services</a>
+              <!-- Sub Menu -->
+              <ul class="sub-menu">
+                <li class="menu-item">
+                  <a href="#" class="menu-link">Foundations</a>
+                </li>
+                <li class="menu-item">
+                  <a href="#" class="menu-link">Tilt Up Construction</a>
+                </li>
+                <li class="menu-item">
+                  <a href="#" class="menu-link"
+                    >Optimally Reinforced Concrete</a
+                  >
+                </li>
+                <li class="menu-item">
+                  <a href="#" class="menu-link">Concrete Paving</a>
+                </li>
+                <li class="menu-item">
+                  <a href="#" class="menu-link">Tenant Improvement & Repairs</a>
+                </li>
+                <li class="menu-item">
+                  <a href="#" class="menu-link">Floor Slabs</a>
+                </li>
+                <li class="menu-item">
+                  <a href="#" class="menu-link">Concrete Finishing</a>
+                </li>
+                <li class="menu-item">
+                  <a href="#" class="menu-link">Structural Concrete</a>
+                </li>
+                <li class="menu-item">
+                  <a href="#" class="menu-link">Extended Joint Floors</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">About</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">Projects</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">Careers</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">Resources</a>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="menu-link">News</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Mobile Menu -->
+      <div class="off_canvars_overlay"></div>
+      <div class="offcanvas_menu">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="offcanvas_menu_wrapper">
+                <div
+                  class="canvas_close d-flex align-items-center justify-content-center"
+                >
+                  <img src="assets/images/icons/closed.svg" alt="closed" />
+                </div>
+                <div id="menu" class="">
+                  <ul class="offcanvas_main_menu">
+                    <li class="menu-item-has-children active">
+                      <a href="#">Companies</a>
+                    </li>
+                    <li class="menu-item-has-children active">
+                      <a href="#">Services</a>
+                      <!----- Sub Menu ----->
+                      <ul class="sub-menu">
+                        <li>
+                          <a href="#">Foundations</a>
+                        </li>
+                        <li>
+                          <a href="#">Tilt Up Construction</a>
+                        </li>
+                        <li>
+                          <a href="#">Optimally Reinforced Concrete</a>
+                        </li>
+                        <li>
+                          <a href="#">Concrete Paving</a>
+                        </li>
+                        <li>
+                          <a href="#">Tenant Improvement & Repairs</a>
+                        </li>
+                        <li>
+                          <a href="#">Floor Slabs</a>
+                        </li>
+                        <li>
+                          <a href="#">Concrete Finishing</a>
+                        </li>
+                        <li>
+                          <a href="#">Structural Concrete</a>
+                        </li>
+                        <li>
+                          <a href="#">Extended Joint Floors</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu-item-has-children active">
+                      <a href="#">About</a>
+                    </li>
+                    <li class="menu-item-has-children active">
+                      <a href="#">Projects</a>
+                    </li>
+                    <li class="menu-item-has-children active">
+                      <a href="#">Careers</a>
+                    </li>
+                    <li class="menu-item-has-children active">
+                      <a href="#">Resources</a>
+                    </li>
+                    <li class="menu-item-has-children active">
+                      <a href="#">News</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- 
+	  =====================================================
+	  End Header Section 
+	  =====================================================
+	-->
+
+    <section class="title-sec">
+      <div class="container">
+        <h1 class="text-center mb-4">Responsive Navigation</h1>
+        <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, quo deserunt officiis doloribus consequuntur aperiam animi distinctio. Impedit porro magnam ipsum necessitatibus nulla blanditiis nesciunt eaque odio aut vel quam assumenda ab molestiae sint, ut voluptas nihil repellendus sunt eos, aspernatur officiis ex adipisci. Debitis sit non tempora saepe expedita magnam dicta maiores incidunt quod, quia aliquid fuga esse impedit molestiae nam, dolor doloremque tempore eligendi excepturi. At accusantium, exercitationem neque tempora consequuntur quibusdam hic quaerat? Voluptates sapiente voluptatibus a fugit modi quis iste culpa, commodi possimus inventore distinctio officiis quibusdam maiores eaque unde esse architecto praesentium labore quisquam in, est blanditiis. Sit suscipit adipisci necessitatibus a culpa aliquam accusantium explicabo optio ea quibusdam iste quisquam eum modi rerum illo repudiandae, hic harum accusamus rem ad ipsum autem deleniti cupiditate. Doloribus perferendis laudantium molestiae nostrum quis architecto beatae id voluptatum ea facilis, velit delectus suscipit cumque nulla earum in accusantium, voluptas sequi tenetur. Ipsam praesentium necessitatibus eum illum assumenda, quia dolorem totam. Quibusdam quam laboriosam totam odit dignissimos veniam, dolorem voluptatum pariatur illum porro? Consequuntur, ut molestias laborum unde sed velit praesentium autem obcaecati necessitatibus quas! Rerum placeat quasi, delectus minima quam laboriosam sit voluptatibus repellat expedita sed? Repellendus sed, dignissimos doloremque perspiciatis qui dolorum voluptates atque aliquid eius beatae, in, maxime vel magni id harum possimus esse quo totam corrupti. Nisi, tempora? Molestiae commodi nesciunt minima corporis totam aspernatur aut reiciendis sit itaque labore ab voluptate, ut minus necessitatibus eligendi dolorum, sunt culpa eum quos natus officiis! Soluta sint repellat eligendi, laboriosam reprehenderit facere fuga, minus minima obcaecati fugiat sed, quaerat neque? Reiciendis ducimus aliquam similique labore saepe dolor exercitationem natus? Doloribus, totam! Quis iure beatae laboriosam nihil autem sit possimus nam expedita iusto iste? Animi delectus cumque unde amet voluptate, fugiat repudiandae ipsam at distinctio enim magnam sequi deleniti nisi recusandae laudantium adipisci! Sed cum dolorem laborum accusamus. Blanditiis ut fuga quae corporis dolor dolores neque molestias impedit, dolorem, nemo qui exercitationem. Quos vero, blanditiis vel quia vitae ducimus nihil expedita itaque sed animi perferendis, dolore reprehenderit quasi. Facilis laboriosam labore quo voluptatibus ratione quis explicabo, odio sunt excepturi quod voluptas accusamus eos esse? Id aliquid ipsam quis eos rem fugiat voluptate, ratione nobis reprehenderit quo! Vitae corrupti illum tempora est praesentium, nesciunt enim voluptatibus aperiam perferendis fugiat adipisci dolor excepturi nulla velit soluta autem modi. Soluta aspernatur tempora facilis eos et, est atque delectus, aut eaque debitis eveniet saepe minima vitae, architecto voluptatem! Alias, laboriosam dolorem consectetur cupiditate ratione pariatur saepe atque enim aperiam? Ad aliquid vitae sequi quaerat natus praesentium aspernatur minus labore rerum adipisci eos esse in magnam magni, temporibus quos. Magni quos sequi, soluta laudantium commodi dolor quo vitae, laboriosam labore illo, iusto recusandae mollitia assumenda repellendus! Soluta magni nihil, obcaecati ratione sunt consequatur suscipit aliquam perspiciatis perferendis nobis, impedit laudantium ad praesentium. Amet ipsum modi at corrupti vitae, magnam illum! Culpa voluptatum optio, ut sapiente obcaecati odio harum porro perspiciatis quibusdam similique atque. Accusantium deserunt distinctio eligendi laboriosam odit veniam maxime minus quae commodi, sapiente quia velit excepturi doloremque, aut et beatae non harum. Consequuntur quidem veniam ducimus esse quo laudantium optio ullam aspernatur nisi illum corrupti labore et quod, doloremque repudiandae quos qui sapiente. Impedit distinctio, inventore corrupti et assumenda accusamus cum quis doloremque molestias, rerum reiciendis quasi quos natus perspiciatis nostrum libero ut ipsum sapiente esse asperiores. Nesciunt similique et rem, recusandae excepturi sed, id exercitationem incidunt quia nam, iste nisi odio reprehenderit. Laborum praesentium incidunt numquam autem aut iste a unde rem recusandae veritatis vel aperiam laboriosam adipisci cupiditate excepturi nemo explicabo doloribus laudantium in quae aspernatur quas, tenetur porro eligendi? Hic eius dolores iste fugit laboriosam id perspiciatis voluptates commodi ipsam placeat rem soluta consequatur, laborum accusamus sint aut aliquid magni qui. Vitae quibusdam reiciendis odio aspernatur asperiores veniam corporis voluptatem, iure necessitatibus natus distinctio eligendi quaerat hic. Itaque molestias tempore ducimus error sint exercitationem inventore quod at esse consectetur? Optio minus voluptatum quod suscipit modi, nisi exercitationem porro enim inventore illo sed. Quasi ut reiciendis, magni commodi eum soluta obcaecati doloribus error vitae beatae odio rerum expedita impedit nemo consequatur amet. Odit expedita dolores repudiandae minima earum, nisi cupiditate optio debitis aliquam, voluptatibus ex eaque itaque ducimus explicabo? Dolores, dignissimos deleniti est obcaecati autem necessitatibus repellat doloribus facere sint ducimus maiores in aut dolore ab optio veritatis laudantium, iusto vel dicta explicabo culpa. Vel corporis numquam quia aliquam. Delectus temporibus voluptate facere inventore animi voluptatem, aliquid in dolorem iure ratione aspernatur. Voluptatum explicabo nam ex commodi facilis sint eaque atque voluptas ullam eveniet repellendus, iste quis, exercitationem dolorum, assumenda minus laborum aspernatur quo perferendis dolorem libero recusandae. Repellendus aperiam natus facilis laboriosam, inventore molestias impedit eius non molestiae quis alias odit, id illum ipsum error eos blanditiis at quas! Quibusdam ea, natus fugit consectetur perferendis deserunt corrupti illum libero! Quis cumque omnis dignissimos reiciendis aspernatur facere, doloribus veritatis assumenda a provident earum tempora similique eligendi officiis sapiente sit, doloremque ea laborum mollitia natus porro. Suscipit similique, amet totam a quaerat consequuntur, repellendus ducimus itaque deserunt ab earum adipisci accusamus quos nam ipsum. Eaque, aperiam voluptatum perspiciatis est quo dolorum debitis enim sit asperiores facilis ut inventore numquam quisquam quod corrupti nemo tempore magnam eos! Consequatur possimus sequi nihil modi ex optio maiores doloremque provident inventore praesentium. Inventore molestias est magnam quos nulla aliquam, autem sed, reprehenderit ullam eius iste nobis doloribus sint voluptas eum cum eos qui quas itaque eligendi excepturi dolorum! Quam inventore obcaecati eaque non sapiente incidunt, architecto, dolore ex tempore reiciendis quae? Officia laboriosam quos sit ex natus nihil dolore sunt, quas repellendus ad hic culpa sapiente voluptate eius est aliquid id! Sequi quasi explicabo asperiores pariatur. Officiis facere quas, assumenda veniam neque debitis dolores excepturi iste tempore consectetur exercitationem non numquam maiores commodi omnis impedit modi atque quisquam quam vero ullam officia repudiandae, cum natus. Minus tenetur, veritatis nobis neque earum pariatur harum suscipit vitae odit delectus recusandae ipsa. Impedit vero earum, dicta esse, eveniet corporis quaerat officiis tenetur a cum non eaque! Modi!</p>
+      </div>
+    </section>
+
+
+    <!--------- jS Here --------->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

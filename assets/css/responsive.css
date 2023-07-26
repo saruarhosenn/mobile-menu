@@ -1,0 +1,46 @@
+/*
+=========================================
+Responsive Breakpoint
+=========================================
+*/
+@media (max-width: 1199px) {
+  .menu > .menu-item:not(:first-child) {
+    margin-left: 25px;
+  }
+
+  .menu .menu-item .menu-link {
+    font-size: var(--size-lg);
+  }
+}
+
+@media (max-width: 991px) {
+  :root {
+    --size-xl: 16px;
+  }
+
+  .header {
+    padding: 15px 0;
+  }
+
+  .offcanvas_main_menu,
+  .offcanvas_main_menu .sub-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .offcanvas_main_menu .menu-item-has-children a {
+    color: var(--text-color3);
+  }
+
+  .offcanvas_menu {
+    display: block;
+  }
+}
+
+@media (max-width: 575px) {
+  :root {
+    --size-xl: 15px;
+  }
+}
+  
